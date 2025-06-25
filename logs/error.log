@@ -1,0 +1,8 @@
+12:48:57.803 [Test worker] INFO  com.busanit501.service.TodoServiceTests-TodoService 테스트: 
+12:48:57.807 [Test worker] INFO  com.busanit501.service.TodoServiceTests-TodoService 테스트에서 todoDTO:TodoDTO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
+12:48:57.807 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService , 화면으로 부터 받은 데이터 확인. todoDTO:TodoDTO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
+12:48:57.825 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService , 변환 데이터 확인. todoVO:TodoVO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
+15:06:31.677 [Test worker] INFO  com.busanit501.service.TodoServiceTests-TodoService 테스트: 
+15:06:31.681 [Test worker] INFO  com.busanit501.service.TodoServiceTests-TodoService 테스트에서 todoDTO:TodoDTO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
+15:06:31.681 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService , 화면으로 부터 받은 데이터 확인. todoDTO:TodoDTO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
+15:06:31.704 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService , 변환 데이터 확인. todoVO:TodoVO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
