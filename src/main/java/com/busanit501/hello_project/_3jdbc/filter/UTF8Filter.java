@@ -18,6 +18,6 @@ public class UTF8Filter implements Filter {
 
         // 위의 규칙 검사 후, 다시 계속 진행함.
         chain.doFilter(request, response);
-
+// 1234
     }
 }
