@@ -12,12 +12,12 @@ import java.io.IOException;
 public class UTF8Filter implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-        log.info("UTF8Filter 작업중, : 검사 대상은 모든 경로 : /*");
+       log.info("UTF8Filter 작업중, : 검사 대상은 모든 경로 : /*");
         HttpServletRequest req = (HttpServletRequest)request;
         req.setCharacterEncoding("UTF-8");
 
         // 위의 규칙 검사 후, 다시 계속 진행함.
         chain.doFilter(request, response);
-// 1234
+
     }
 }

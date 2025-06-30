@@ -49,7 +49,7 @@ public class TodoServiceTests {
     @Test
     public void testRemove() throws Exception{
         // 실제 삭제 할 tno 번호 파악
-        todoService.remove(5L);
+        todoService.remove(10L);
         log.info("서비스 단위테스트 삭제 확인 ");
 
     }

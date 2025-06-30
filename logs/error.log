@@ -1,25 +1,29 @@
-12:48:57.803 [Test worker] INFO  com.busanit501.service.TodoServiceTests-TodoService 테스트: 
-12:48:57.807 [Test worker] INFO  com.busanit501.service.TodoServiceTests-TodoService 테스트에서 todoDTO:TodoDTO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
+12:48:57.803 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-TodoService 테스트:
+12:48:57.807 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-TodoService 테스트에서 todoDTO:TodoDTO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
 12:48:57.807 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService , 화면으로 부터 받은 데이터 확인. todoDTO:TodoDTO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
 12:48:57.825 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService , 변환 데이터 확인. todoVO:TodoVO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
-15:06:31.677 [Test worker] INFO  com.busanit501.service.TodoServiceTests-TodoService 테스트: 
-15:06:31.681 [Test worker] INFO  com.busanit501.service.TodoServiceTests-TodoService 테스트에서 todoDTO:TodoDTO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
+15:06:31.677 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-TodoService 테스트:
+15:06:31.681 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-TodoService 테스트에서 todoDTO:TodoDTO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
 15:06:31.681 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService , 화면으로 부터 받은 데이터 확인. todoDTO:TodoDTO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
 15:06:31.704 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService , 변환 데이터 확인. todoVO:TodoVO(tno=null, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
 10:25:45.948 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService : 하나 조회 기능 작업
-10:25:46.119 [Test worker] INFO  com.busanit501.service.TodoServiceTests-서비스 단위테스트 하나조회 확인 
-10:25:46.120 [Test worker] INFO  com.busanit501.service.TodoServiceTests-todoDTO:TodoDTO(tno=14, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
+10:25:46.119 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-서비스 단위테스트 하나조회 확인
+10:25:46.120 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-todoDTO:TodoDTO(tno=14, title=서비스, 단위테스트 진행, dueDate=2025-06-25, finished=false)
 11:26:28.347 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-서비스의 삭제 기능 , tno 번호 확인 : 7
-11:26:28.496 [Test worker] INFO  com.busanit501.service.TodoServiceTests-서비스 단위테스트 삭제 확인 
+11:26:28.496 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-서비스 단위테스트 삭제 확인
 11:27:25.537 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-서비스의 삭제 기능 , tno 번호 확인 : 10
-11:27:25.673 [Test worker] INFO  com.busanit501.service.TodoServiceTests-서비스 단위테스트 삭제 확인 
+11:27:25.673 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-서비스 단위테스트 삭제 확인
 11:27:58.751 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-서비스의 삭제 기능 , tno 번호 확인 : 5
-11:27:58.897 [Test worker] INFO  com.busanit501.service.TodoServiceTests-서비스 단위테스트 삭제 확인 
+11:27:58.897 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-서비스 단위테스트 삭제 확인
 11:59:46.310 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService : 하나 조회 기능 작업
-11:59:46.474 [Test worker] INFO  com.busanit501.service.TodoServiceTests-서비스 단위테스트 수정 확인 todoDTO :TodoDTO(tno=15, title=제목만 변경해보기., dueDate=2025-06-25, finished=false)
+11:59:46.474 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-서비스 단위테스트 수정 확인 todoDTO :TodoDTO(tno=15, title=제목만 변경해보기., dueDate=2025-06-25, finished=false)
 11:59:46.474 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService 작업중. 수정 작업
-11:59:46.485 [Test worker] INFO  com.busanit501.service.TodoServiceTests-서비스 단위테스트 수정 확인2 
+11:59:46.485 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-서비스 단위테스트 수정 확인2
 12:00:15.293 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService : 하나 조회 기능 작업
-12:00:15.446 [Test worker] INFO  com.busanit501.service.TodoServiceTests-서비스 단위테스트 수정 확인 todoDTO :TodoDTO(tno=14, title=제목만 변경해보기., dueDate=2025-06-25, finished=false)
+12:00:15.446 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-서비스 단위테스트 수정 확인 todoDTO :TodoDTO(tno=14, title=제목만 변경해보기., dueDate=2025-06-25, finished=false)
 12:00:15.446 [Test worker] INFO  com.busanit501.hello_project._3jdbc.service.TodoService-TodoService 작업중. 수정 작업
-12:00:15.451 [Test worker] INFO  com.busanit501.service.TodoServiceTests-서비스 단위테스트 수정 확인2 
+12:00:15.451 [Test worker] INFO  com.service.com.busanit501.TodoServiceTests-서비스 단위테스트 수정 확인2
+09:28:22.983 [Test worker] INFO  com.service.com.busanit501.MemberServiceTests-멤버서비스 테스트 : 로그인 확인 된 유저 :MemberDTO(mid=lsy, mpw=1234, mname=이상용1, uuid=null)
+09:36:15.063 [Test worker] INFO  com.dao.com.busanit501.MemberDAOTests-조회한 멤버 : MemberVO(mid=lsy, mpw=1234, mname=이상용1, uuid=null)
+09:47:56.311 [Test worker] INFO  com.busanit501.dao.MemberDAOTests-조회한 멤버 : MemberVO(mid=lsy, mpw=1234, mname=이상용1, uuid=null)
+09:48:28.072 [Test worker] INFO  com.busanit501.service.MemberServiceTests-멤버서비스 테스트 : 로그인 확인 된 유저 :MemberDTO(mid=lsy, mpw=1234, mname=이상용1, uuid=null)

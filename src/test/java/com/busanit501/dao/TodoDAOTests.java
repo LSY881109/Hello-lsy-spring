@@ -39,7 +39,7 @@ public class TodoDAOTests {
 
         // 빌더 패턴 사용 후
         TodoVO todoVO = TodoVO.builder()
-                .title("샘플 제목")
+                .title("샘플 제목-오늘 점심 뭐 먹지?")
                 .dueDate(LocalDate.now())
                 .build();
 
@@ -60,7 +60,7 @@ public class TodoDAOTests {
     @Test
     public void testSelectOne() throws Exception {
         // 현재 디비 내용에 따라서, 다름. 3개의 더미 데이터 있음.
-        Long tno = 3L; // 디비에 존재해야함.
+        Long tno = 13L; // 디비에 존재해야함.
         TodoVO todoVO = todoDAO.selectOne(tno);
         System.out.println(todoVO);
     }
@@ -69,7 +69,7 @@ public class TodoDAOTests {
     @Test
     public void testDeleteOne() throws Exception {
         // 현재 디비 내용에 따라서, 다름. 3개의 더미 데이터 있음.
-        Long tno = 21L; // 디비에 존재해야함.
+        Long tno = 13L; // 디비에 존재해야함.
         todoDAO.deleteOne(tno);
         // 실제 디비를 확인.
         System.out.println("삭제 완료");
@@ -82,8 +82,8 @@ public class TodoDAOTests {
         // 받아온 데이터를 -> 모델에 담아서,
         // dao 로 업데이트 기능 수행.
         TodoVO vo = TodoVO.builder()
-                .tno(2L)
-                .title("수정 제목")
+                .tno(12L)
+                .title("수정 제목12121212121212")
                 .dueDate(LocalDate.now())
                 .finished(true)
                 .build();

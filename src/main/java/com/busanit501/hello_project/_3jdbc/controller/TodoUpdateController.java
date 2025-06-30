@@ -2,7 +2,6 @@ package com.busanit501.hello_project._3jdbc.controller;
 
 import com.busanit501.hello_project._3jdbc.dto.TodoDTO;
 import com.busanit501.hello_project._3jdbc.service.TodoService;
-import jdk.vm.ci.meta.Local;
 import lombok.extern.log4j.Log4j2;
 
 import javax.servlet.ServletException;
@@ -32,7 +31,7 @@ public class TodoUpdateController extends HttpServlet {
             // 화면 전달.
             request.getRequestDispatcher("/WEB-INF/todo/todoUpdate.jsp").forward(request, response);
 
-
+            
         } catch (Exception e) {
             log.error(e.getMessage());
             throw new ServletException("수정폼 조회 에러");
@@ -42,7 +41,7 @@ public class TodoUpdateController extends HttpServlet {
 
     // 로직처리, doPost
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // 한글 처리 임시 방편 작업함.
+        // 한글 처리, 임시 방편 작업함.
 //        request.setCharacterEncoding("UTF-8");
         // 체크박스 처리 여부. finishedStr, true 이면 "on" 전달 받음.
         String finishedStr = request.getParameter("finished");

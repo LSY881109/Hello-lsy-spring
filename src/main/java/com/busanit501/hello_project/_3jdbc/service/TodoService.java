@@ -7,7 +7,6 @@ import com.busanit501.hello_project._3jdbc.util.MapperUtil;
 import lombok.extern.log4j.Log4j2;
 import org.modelmapper.ModelMapper;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -32,7 +31,7 @@ public enum TodoService {
     //  -> DAO 가 디비 쓰는 과정.
     // 현위치 : 서비스 ,
     // 역할 : 받고, 변환, 전달.
-    // 전달 개요 : 화면 -> 컨트롤러(C) -> 서비스(S) : 현위치 -> DAO() -> DB
+    // 전달 개요 : 화면 -> 컨트롤러(C) -> 서비스 (S):현위치 - > DAO() -> DB
     public void register(TodoDTO todoDTO) throws Exception{
 //        System.out.println("TodoService , 화면으로 부터 받은 데이터 확인. todoDTO:"+todoDTO);
         log.info("TodoService , 화면으로 부터 받은 데이터 확인. todoDTO:"+todoDTO);
@@ -51,7 +50,7 @@ public enum TodoService {
         log.info("현재 TodoService 작업중.listAll ");
         log.info("데이터 확인 : " + voList);
 
-
+        
         // 전
         // TodoVO -> TodoDTO
 //        List<TodoDTO> dtoListFor = new ArrayList<>();
@@ -67,6 +66,7 @@ public enum TodoService {
                 = voList.stream().map(vo -> modelMapper.map(vo, TodoDTO.class))
                 .collect(Collectors.toList());
         return dtoList;
+
     }
 
     //하나조회.
@@ -93,6 +93,5 @@ public enum TodoService {
         TodoVO todoVO = modelMapper.map(todoDTO, TodoVO.class);
         dao.updateOne(todoVO);
     }
-
 
 }
